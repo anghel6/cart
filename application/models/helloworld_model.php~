@@ -15,6 +15,7 @@
                     //show_error('Database is empty!');  
                 }else{  
                     return $query->result();  
+                    echo fsdf;
                 }  
             }  
     }  
