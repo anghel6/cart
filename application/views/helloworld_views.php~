@@ -1,0 +1,22 @@
+
+    <html>  
+
+        <head>  
+            <title></title>  
+        </head>  
+        <body>  
+   <p>dfdsfdsf</p>
+            
+            <h3></h3>  
+             
+		<?php 
+			foreach($records as $row): 
+                         echo $records;
+   		?>
+                  <h1><?php echo $row->title; ?></h1>
+              <?php endforeach; ?>
+		
+            <br />  
+           
+        </body>  
+    </html>  

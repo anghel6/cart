@@ -1,0 +1,13 @@
+<?php
+
+class Site_model extend CI_model{
+function getAll(){
+$q=$this->db->get('data');
+if($q->numrows()>0){
+foreach($q->result() as $row){
+$data[]=$row;
+}
+return $data;
+}
+}
+}
