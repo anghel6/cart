@@ -16,7 +16,9 @@
                 }else{  
                     return $query->result();  
                     echo fsdf;
+                    echo fbfd;
                 }  
             }  
     }  
       
+      ?>
